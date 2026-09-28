@@ -1,0 +1,32 @@
+bp24tron  source=/home/arcioth/Documents/hack24tron/logs/sweeps.jsonl  sweeps=6
+dB values are uncalibrated HackRF FFT bins, not dBm. RX only.
+  class              center     bw  peak_db  margin
+sweep 1/6  ts=20260928T191205Z  dur=91ms  bins=85  floor=-62.39  peak=-50.75 @ 2445.0  lna=24 vga=20
+  narrow_carrier    2445.00   1.00   -50.75   11.64
+  narrow_carrier    2458.70   2.00   -51.05   11.34
+  unresolved: 2405-2405 (1 bin, peak -55.2), 2408-2408 (1 bin, peak -55.3), 2412-2412 (1 bin, peak -52.6), 2447-2447 (1 bin, peak -54.9)
+
+sweep 2/6  ts=20260928T191205Z  dur=91ms  bins=85  floor=-61.98  peak=-52.92 @ 2439.0  lna=24 vga=20
+  (no class hit)
+  unresolved: 2405-2406 (2 bins, peak -54.3), 2432-2432 (1 bin, peak -55.3), 2438-2441 (4 bins, peak -52.9)
+
+sweep 3/6  ts=20260928T191205Z  dur=91ms  bins=85  floor=-62.58  peak=-43.09 @ 2475.0  lna=24 vga=20
+  narrow_carrier    2475.17   2.00   -43.09   19.49
+  unresolved: 2416-2418 (3 bins, peak -44.9), 2428-2433 (6 bins, peak -49.5), 2435-2435 (1 bin, peak -55.9), 2437-2438 (2 bins, peak -51.2), 2440-2442 (3 bins, peak -52.0), 2444-2444 (1 bin, peak -55.7)
+
+sweep 4/6  ts=20260928T191206Z  dur=91ms  bins=85  floor=-63.62  peak=-51.35 @ 2415.0  lna=24 vga=20
+  narrow_carrier    2415.42   2.00   -51.35   12.27
+  unresolved: 2406-2408 (3 bins, peak -52.0), 2434-2434 (1 bin, peak -56.7), 2443-2444 (2 bins, peak -56.8), 2464-2464 (1 bin, peak -57.2)
+
+sweep 5/6  ts=20260928T191206Z  dur=92ms  bins=85  floor=-62.02  peak=-43.04 @ 2445.0  lna=24 vga=20
+  (no class hit)
+  unresolved: 2410-2413 (4 bins, peak -45.8), 2427-2428 (2 bins, peak -55.0), 2432-2434 (3 bins, peak -50.5), 2437-2438 (2 bins, peak -51.1), 2441-2445 (5 bins, peak -43.0), 2455-2455 (1 bin, peak -53.9), 2459-2459 (1 bin, peak -55.6), 2470-2470 (1 bin, peak -55.4)
+
+sweep 6/6  ts=20260928T191206Z  dur=92ms  bins=85  floor=-60.58  peak=-27.96 @ 2438.0  lna=24 vga=20
+  wifi_ofdm         2437.00   8.00   -27.96   32.62
+  bandpass ch6 2437.00/20.00  in=-36.37 mean (21 bins, sum -23.15)  glo=-43.09 (20)  ghi=-59.04 (20)  excess 6.72
+  narrow_carrier    2445.02   2.00   -36.22   24.36
+  narrow_carrier    2459.00   1.00   -51.35    9.23
+  unresolved: 2405-2409 (5 bins, peak -34.6), 2415-2419 (5 bins, peak -37.4), 2430-2430 (1 bin, peak -53.1)
+
+counts wifi_ofdm=1 ble_adv=0 narrow_carrier=6 quiet=0 unresolved_runs=28
